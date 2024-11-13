@@ -4,7 +4,7 @@
   <h2 class="text-[90px] font-bold px-56">Launch your <span class="text-hot-pink">site</span> in seconds</h2>
   <form class="border-black border-solid border-4 rounded-3xl text-24 h-20" (submit)="saveUserName()" ngNativeValidate>
     <input required minlength="3" id="userName" name="userName" [(ngModel)]="userName"
-      class="hover:border-slate-400 rounded-3xl h-full p-2" type="text" placeholder="Enter user name">
+      class="hover:border-slate-400 rounded-3xl h-full p-2 placeholder:text-stone-400" type="text" placeholder="Enter user name">
     <button type="submit"
       class="bg-hot-pink text-white m-1 border-black border-solid border-4 px-14 rounded-2xl h-[calc(100%-0.5rem)]">Get</button>
   </form>

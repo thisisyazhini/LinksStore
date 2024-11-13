@@ -6,3 +6,9 @@
 html{
   @apply font-droidSans;
 }
+
+@layer components {
+  .selected {
+    @apply text-black border-solid border-l-;
+  }
+}

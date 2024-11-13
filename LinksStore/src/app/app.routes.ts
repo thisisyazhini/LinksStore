@@ -7,7 +7,7 @@ export const routes: Routes = [
   },
   {
     path: 'links',
-    loadComponent: () => import('./links-preview/links-preview.component').then(mod => mod.LinksPreviewComponent)
+    loadComponent: () => import('./links-preview-setup/links-preview-setup.component').then(mod => mod.LinksPreviewSetupComponent)
   },
 
 ];

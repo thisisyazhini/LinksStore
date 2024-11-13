@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         'hot-pink': '#FF4364',
+        'light-gray':'#f3f3f4'
       }
     },
   },
